@@ -1,0 +1,8 @@
+MIDlet-1: Ponzika,/icn_clndr.png,Barud.Ponzika
+MIDlet-Jar-Size: 151786
+MIDlet-Jar-URL: Ponzika.jar
+MIDlet-Name: Ponzika
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
