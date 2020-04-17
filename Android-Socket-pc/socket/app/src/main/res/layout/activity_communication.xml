@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dataexchange.socket.com.dataexchange.Communication">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="center">
+
+
+        <EditText
+            android:id="@+id/getText"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="gettingText" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="?android:attr/listDivider" />
+
+        <EditText
+            android:id="@+id/sendingtext"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            android:text="sendtext" />
+
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/sendbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+        <TextView
+            android:id="@+id/ipAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </TextView>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
